@@ -12,13 +12,18 @@
 		"cf-typegen": "wrangler types"
 	},
 	"dependencies": {
+		"@nuxt/content": "^3.6.3",
 		"nuxt": "^3.17.7",
 		"vue": "^3.5.18",
 		"vue-router": "^4.5.1"
 	},
 	"devDependencies": {
+		"@nuxt/ui-pro": "^3.3.0",
+		"@tailwindcss/vite": "^4.1.11",
+		"better-sqlite3": "^12.2.0",
 		"nitro-cloudflare-dev": "^0.2.2",
 		"nitropack": "^2.12.4",
+		"tailwindcss": "^4.1.11",
 		"wrangler": "^4.27.0"
 	}
 }

@@ -5,7 +5,9 @@ declare module "h3" {
     cf: CfProperties;
     cloudflare: {
       request: Request;
-      env: Env;
+      env: {
+        DB: D1Database;
+      };
       context: ExecutionContext;
     };
   }
